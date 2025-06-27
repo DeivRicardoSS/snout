@@ -16,13 +16,13 @@ export function BottomTabs() {
                 tabBarShowLabel: true,
                 tabBarIcon: ({ color, size }) => {
                     if (route.name === "Profile") {
-                        return <UserIcon size={32} color={color} />
+                        return <UserIcon size={32} color={color} weight="fill" />
                     } else if (route.name === "Match") {
-                        return <PawPrintIcon size={32} color={color} />
+                        return <PawPrintIcon size={32} color={color} weight="fill" />
                     } else if (route.name === "Saved") {
-                        return <BookmarkSimpleIcon size={32} color={color} />
+                        return <BookmarkSimpleIcon size={32} color={color} weight="fill" />
                     } else if (route.name === "Requests") {
-                        return <ChatCircleIcon size={32} color={color} />
+                        return <ChatCircleIcon size={32} color={color} weight="fill" />
                     }
                 },
                 tabBarStyle: {
