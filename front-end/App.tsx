@@ -9,8 +9,14 @@ import { BottomTabs } from './src/navigation/BottomTabs';
 export default function App() {
   
   return (
-    <NavigationContainer>
-        <BottomTabs/>
-    </NavigationContainer>
+    <>
+      <StatusBar 
+        barStyle="light-content"
+      />
+
+      <NavigationContainer>
+          <BottomTabs/>
+      </NavigationContainer>
+    </>
   );
 }

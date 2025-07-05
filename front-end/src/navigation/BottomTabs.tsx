@@ -10,7 +10,7 @@ const Tab = createBottomTabNavigator();
 export function BottomTabs() {
     return (
         <Tab.Navigator
-            initialRouteName="Match"
+            initialRouteName="Requests"
             screenOptions={({ route }) => ({
                 headerShown: false,
                 tabBarShowLabel: true,
